@@ -5,7 +5,7 @@
   "license": "",
   "scripts": {
     "build": "npx remix build",
-    "dev": "npx remix dev",
+    "dev": "npx wrangler pages dev ./",
     "postinstall": "npx remix setup node",
     "start": "npx remix-serve build"
   },
